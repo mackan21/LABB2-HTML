@@ -62,7 +62,8 @@ img {
   max-width: 350px;
 }
 #dam,
-#herr {
+#herr,
+#barn {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
