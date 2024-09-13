@@ -94,6 +94,7 @@ footer {
   justify-content: space-between;
   margin-top: 2rem;
 }
+/* Desktop Stil 1200px> */
 @media (min-width: 1200px) {
   body {
     display: grid;
