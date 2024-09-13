@@ -4,3 +4,43 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+a {
+  color: black;
+}
+/* Fonts */
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url(fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Light;
+  src: url(fonts/Poppins-Light.ttf);
+}
+/* Navbar */
+.navbar {
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 1rem;
+}
+.navli {
+  display: inline-block;
+  font-family: Poppins-Light;
+  font-weight: 600;
+  padding: 1rem;
+}
+#navul {
+  grid-column: 1/2;
+  grid-row: 1;
+  text-align: center;
+}
+.nava:hover {
+  color: lightgrey;
+}
+h1 {
+  grid-column: 2/3;
+  grid-row: 1;
+  font-family: BebasNeue-Regular;
+  font-size: 3rem;
+  text-align: center;
+}
