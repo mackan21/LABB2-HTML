@@ -61,7 +61,8 @@ img {
   width: auto;
   max-width: 350px;
 }
-#dam {
+#dam,
+#herr {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
