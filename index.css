@@ -1,9 +1,11 @@
+/* Resets */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
+/* Länkar */
 a {
   color: black;
 }
@@ -43,4 +45,24 @@ h1 {
   font-family: BebasNeue-Regular;
   font-size: 3rem;
   text-align: center;
+}
+/* Välj Kategori rubrik */
+h2 {
+  text-align: center;
+  width: auto;
+  font-family: Poppins-Light;
+  margin-top: 5rem;
+}
+/* Mobil stil */
+ul {
+  display: none;
+}
+img {
+  width: auto;
+  max-width: 350px;
+}
+#dam {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
