@@ -37,7 +37,7 @@ a {
   text-align: center;
 }
 .nava:hover {
-  color: lightgrey;
+  color: grey;
 }
 h1 {
   grid-column: 2/3;
