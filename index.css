@@ -60,7 +60,7 @@ h2:hover {
 /* Kategorier */
 img {
   width: auto;
-  max-width: 350px;
+  max-width: 320px;
 }
 .kategori {
   display: flex;
@@ -75,7 +75,7 @@ img {
 div {
   text-align: center;
   border: solid lightgrey 1px;
-  width: 350px;
+  width: 320px;
   font-family: Poppins-Light;
   padding: 4rem 0rem;
   margin-top: 5rem;
@@ -88,14 +88,32 @@ h3 {
 }
 /* Footer */
 footer {
+  width: auto;
   background-color: lightgrey;
   font-family: Poppins-Light;
-  display: flex;
-  justify-content: space-between;
   margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#footer-p {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+}
+#footer-ul {
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: column;
+}
+#footer-p:hover {
+  cursor: default;
+}
+.footer-li {
+  list-style: none;
+  margin-top: 1rem;
 }
 /* Desktop Stil 1200px> */
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
   body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -113,6 +131,12 @@ footer {
   }
 }
 @media (max-width: 1080px) {
+  #navul {
+    font-size: 0.87rem;
+  }
+}
+/* Ul försvinner */
+@media (max-width: 980px) {
   #navul {
     display: none;
   }
