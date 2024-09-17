@@ -130,12 +130,13 @@ footer {
     grid-column: 1/4;
   }
 }
+/* Fontsize blir mindre på navbaren */
 @media (max-width: 1080px) {
   #navul {
     font-size: 0.87rem;
   }
 }
-/* Ul försvinner */
+/* Ul försvinner i navbaren*/
 @media (max-width: 980px) {
   #navul {
     display: none;
