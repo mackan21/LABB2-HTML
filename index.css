@@ -72,7 +72,7 @@ img {
   display: flex;
   justify-content: center;
 }
-div {
+.tips div {
   text-align: center;
   border: solid lightgrey 1px;
   width: 320px;
