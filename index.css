@@ -240,7 +240,7 @@ footer {
     font-size: 0.87rem;
   }
 }
-/* Ul försvinner i navbaren*/
+/* Ul försvinner i navbaren och hero blir mindre*/
 @media (max-width: 980px) {
   #navul {
     display: none;
