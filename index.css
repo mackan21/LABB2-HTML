@@ -39,7 +39,7 @@ a {
 .nava:hover {
   color: grey;
 }
-h1 {
+h2 {
   grid-column: 2/3;
   grid-row: 1;
   font-family: BebasNeue-Regular;
@@ -50,15 +50,35 @@ svg {
   margin-top: 0.7rem;
   margin-left: 1.5rem;
 }
+/* Hero Sektion */
+.hero {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  background-image: url(img/pexels-rfera-432059.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  font-size: 5rem;
+  font-family: Poppins-Light;
+  margin-top: 20rem;
+}
 /* Välj Kategori rubrik */
-h2 {
+h3 {
   text-align: center;
   width: auto;
   font-family: Poppins-Light;
   margin-top: 5rem;
   font-size: 2rem;
 }
-h2:hover {
+h3:hover {
   cursor: default;
 }
 /* Kategorier */
@@ -84,7 +104,7 @@ img {
   padding: 4rem 0rem;
   margin-top: 5rem;
 }
-h3 {
+h4 {
   margin-bottom: 2rem;
 }
 .tips a div:hover {
@@ -126,36 +146,40 @@ footer {
     grid-row: 1;
     grid-column: 1/3;
   }
-  h2 {
+  .hero {
     grid-row: 2;
     grid-column: 1/3;
   }
-  #dam {
+  h3 {
     grid-row: 3;
+    grid-column: 1/3;
+  }
+  #dam {
+    grid-row: 4;
     grid-column: 1/2;
   }
   #herr {
-    grid-row: 3;
+    grid-row: 4;
     grid-column: 2/3;
   }
   #barn {
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 1/3;
   }
   #guide {
-    grid-row: 5;
+    grid-row: 6;
     grid-column: 1/2;
   }
   #frågor {
-    grid-row: 5;
+    grid-row: 6;
     grid-column: 2/3;
   }
   #kundtjänst {
-    grid-row: 6;
+    grid-row: 7;
     grid-column: 1/3;
   }
   footer {
-    grid-row: 7;
+    grid-row: 8;
     grid-column: 1/3;
   }
 }
@@ -170,35 +194,40 @@ footer {
     grid-row: 1;
     grid-column: 1/4;
   }
-  h2 {
+  .hero {
     grid-row: 2;
     grid-column: 1/4;
   }
-  #dam {
+  h3 {
     grid-row: 3;
+    grid-column: 1/4;
+  }
+  #dam {
+    grid-row: 4;
     grid-column: 1/2;
   }
   #herr {
-    grid-row: 3;
+    grid-row: 4;
     grid-column: 2/3;
   }
   #barn {
-    grid-row: 3;
+    grid-row: 4;
     grid-column: 3/4;
   }
   #guide {
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 1/2;
   }
   #frågor {
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 2/3;
   }
   #kundtjänst {
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 3/4;
   }
   footer {
+    grid-row: 6;
     grid-column: 1/4;
   }
   svg {
@@ -215,5 +244,12 @@ footer {
 @media (max-width: 980px) {
   #navul {
     display: none;
+  }
+  .hero {
+    height: 50vh;
+  }
+  h1 {
+    margin-top: 12rem;
+    font-size: 2.5rem;
   }
 }
