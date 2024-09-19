@@ -91,6 +91,9 @@ img {
   justify-content: center;
   margin-top: 5rem;
 }
+h6 {
+  display: none;
+}
 /* Tips Rutor */
 .tips {
   display: flex;
